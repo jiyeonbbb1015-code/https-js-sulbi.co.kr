@@ -1,12 +1,7 @@
 [build]
   publish = "."
 
-# trailing slash 강제 — /drain/jeonwang → /drain/jeonwang/ 301 자동 처리
-[[redirects]]
-  from = "/*"
-  to = "/:splat"
-  status = 301
-  force = false
+
 
 [build.processing]
   skip_processing = false
@@ -16,9 +11,7 @@
 
 [[headers]]
   for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
+ 
     Referrer-Policy = "strict-origin-when-cross-origin"
     Cache-Control = "public, max-age=3600"
 
