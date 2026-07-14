@@ -10,11 +10,9 @@
 [build.processing]
   skip_processing = false
 
-
-
 [[headers]]
   for = "/*"
- 
+  [headers.values]
     Referrer-Policy = "strict-origin-when-cross-origin"
     Cache-Control = "public, max-age=3600"
 
