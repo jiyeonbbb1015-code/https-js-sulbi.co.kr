@@ -1,7 +1,11 @@
 [build]
   publish = "."
 
-
+[[redirects]]
+  from = "https://www.https-js-sulbi.co.kr/*"
+  to = "https://https-js-sulbi.co.kr/:splat"
+  status = 301
+  force = true
 
 [build.processing]
   skip_processing = false
