@@ -2,8 +2,8 @@
   publish = "."
 
 [[redirects]]
-  from = "https://www.https-js-sulbi.co.kr/*"
-  to = "https://https-js-sulbi.co.kr/:splat"
+  from = "https://www.js-sulbi.co.kr/*"
+  to = "https://js-sulbi.co.kr/:splat"
   status = 301
   force = true
 
